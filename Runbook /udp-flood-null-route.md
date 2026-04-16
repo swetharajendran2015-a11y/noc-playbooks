@@ -57,7 +57,7 @@ bytes/pkt: small and consistent
 
 **Step 3 — Check your DDoS platform**
 
-On Radware DefensePro:
+On your DDoS dashboard:
 - Navigate to the real-time attack view
 - Look for the active protection policy on the victim IP
 - Confirm the attack vector shows UDP flood or DNS/NTP amplification
