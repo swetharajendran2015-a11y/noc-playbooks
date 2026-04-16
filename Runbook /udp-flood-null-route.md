@@ -2,7 +2,7 @@
 
 **Type:** DDoS Mitigation Runbook  
 **Layer:** L3 / L4  
-**Tools Referenced:** NetFlow, Radware DefensePro, BGP  
+**Tools Referenced:** NetFlow, BGP  
 **Severity:** P1 — Service Impacting
 
 ---
