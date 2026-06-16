@@ -12,7 +12,14 @@ Each runbook follows the same structure used in real NOC operations — from ale
 
 📁 Runbooks
 
-FileAttack TypeMitigation Approachudp-flood-null-route.mdUDP FloodNull Routesyn-flood-mitigation.mdSYN FloodSYN Cookie / Rate Limitingicmp-flood-response.mdICMP FloodICMP Rate Limiting / Blockack-flood-detection.mdACK FloodStateful Inspectionhttp-flood-cwaf.mdHTTP FloodCloud WAF Rule Enforcementddos-escalation-checklist.mdAll TypesEscalation Decision Tree
+
+1. udp-flood-null-route.md — UDP Flood — Null Route Mitigation
+2. syn-flood-mitigation.md — SYN Flood — SYN Cookie / Rate Limiting
+3. icmp-flood-response.md — ICMP Flood — Rate Limiting / Block
+4. ack-flood-detection.md — ACK Flood — Stateful Inspection
+5. http-flood-cwaf.md — HTTP Flood — Cloud WAF Rule Enforcement
+6. ddos-escalation-checklist.md — Escalation Decision Tree
+
 
 
 🔍 Runbook Structure
@@ -20,23 +27,23 @@ FileAttack TypeMitigation Approachudp-flood-null-route.mdUDP FloodNull Routesyn-
 Every runbook contains:
 
 
-What it is — attack definition and how it works
-How it looks — traffic patterns, alert signatures, tool indicators
-Verification steps — what to check in Grafana, Kentik, Pingdom
-Mitigation actions — step-by-step response procedure
-Escalation criteria — when to escalate and to whom
-Documentation — how to log the incident in Jira and Confluence
+1. What it is — attack definition and how it works
+2. How it looks — traffic patterns, alert signatures, tool indicators
+3. Verification steps — what to check in Grafana, Kentik, Pingdom
+4. Mitigation actions — step-by-step response procedure
+5. Escalation criteria — when to escalate and to whom
+6. Documentation — how to log the incident in Jira and Confluence
 
 
 
 🛠️ Tools Referenced
 
 
-Grafana — traffic visualization and alert monitoring
-Kentik — flow analysis and DDoS detection
-Pingdom — availability and uptime monitoring
-Jira — incident ticketing
-Confluence — runbook and knowledge base documentation
+1. Grafana — traffic visualization and alert monitoring
+2. Kentik — flow analysis and DDoS detection
+3. Pingdom — availability and uptime monitoring
+3. Jira — incident ticketing
+4. Confluence — runbook and knowledge base documentation
 
 
 
@@ -49,5 +56,9 @@ All content is generic and does not include any confidential or company-specific
 
 
 📧 swetharajendran4055@gmail.com
-💼 LinkedIn https://www.linkedin.com/in/swetha-rajendran-4349a12a1/
-🐙 GitHub Profile https://github.com/swetharajendran2015-a11y
+
+💼 LinkedIn — https://www.linkedin.com/in/swetha-rajendran-4349a12a1
+
+🐙 GitHub — https://github.com/swetharajendran2015-a11y
+
+🎥 YouTube — https://www.youtube.com/@alexessecurity
