@@ -1,74 +1,53 @@
-# NOC Playbooks 🚀
+NOC Runbooks — DDoS Mitigation 🛡️
 
-This repository is a collection of my practical learning, thought process, and real-world approach as a Network Operations Center (NOC) Engineer.
+A collection of operational runbooks for common DDoS attack types handled in a live NOC environment.
 
-Instead of just theory, this repo focuses on how alerts are understood, investigated, and resolved in real scenarios.
+Each runbook follows the same structure used in real NOC operations — from alert detection through to resolution and documentation. Written based on hands-on L3/L4 DDoS mitigation experience.
 
----
 
-## 🔍 What this repository contains
+"An alert is not just a notification — it's a starting point for investigation."
 
-### 📌 Alert Playbooks
-Step-by-step handling of common alerts:
-- High latency
-- Traffic spikes
-- DDoS indicators
-- Service downtime
 
-Each playbook includes:
-- What the alert means
-- Possible causes
-- How to verify
-- Actions taken
 
----
 
-### ⚡ Incident Scenarios
-Simulated real-world incidents with:
-- Timeline of events
-- Investigation steps
-- Root cause analysis (RCA)
-- Final resolution
+📁 Runbooks
 
----
+FileAttack TypeMitigation Approachudp-flood-null-route.mdUDP FloodNull Routesyn-flood-mitigation.mdSYN FloodSYN Cookie / Rate Limitingicmp-flood-response.mdICMP FloodICMP Rate Limiting / Blockack-flood-detection.mdACK FloodStateful Inspectionhttp-flood-cwaf.mdHTTP FloodCloud WAF Rule Enforcementddos-escalation-checklist.mdAll TypesEscalation Decision Tree
 
-### 🛠️ Tools & Usage
-Practical understanding of tools used in monitoring:
-- When to use each tool
-- What to check first
-- How tools connect in troubleshooting
 
----
+🔍 Runbook Structure
 
-## 🎯 Purpose
+Every runbook contains:
 
-- Build a structured approach to handling alerts  
-- Improve troubleshooting speed and accuracy  
-- Think beyond theory and focus on real scenarios  
 
----
+What it is — attack definition and how it works
+How it looks — traffic patterns, alert signatures, tool indicators
+Verification steps — what to check in Grafana, Kentik, Pingdom
+Mitigation actions — step-by-step response procedure
+Escalation criteria — when to escalate and to whom
+Documentation — how to log the incident in Jira and Confluence
 
-## 🧠 Approach
 
-This repository is built with a simple mindset:
 
-> "An alert is not just a notification — it’s a starting point for investigation."
+🛠️ Tools Referenced
 
----
 
-## 📈 Ongoing Work
+Grafana — traffic visualization and alert monitoring
+Kentik — flow analysis and DDoS detection
+Pingdom — availability and uptime monitoring
+Jira — incident ticketing
+Confluence — runbook and knowledge base documentation
 
-This is a continuously evolving repository.  
-New alerts, scenarios, and learnings will be added regularly.
 
----
 
-## ⚠️ Note
+⚠️ Note
 
-All content is generic and does not include any confidential or company-specific information.
+All content is generic and does not include any confidential or company-specific information. Written for educational and portfolio purposes.
 
----
 
-## 🤝 Connect
+🤝 Connect
 
-This repo reflects my journey in understanding systems, alerts, and real-time problem solving in production environments.
+
+📧 swetharajendran4055@gmail.com
+💼 LinkedIn https://www.linkedin.com/in/swetha-rajendran-4349a12a1/
+🐙 GitHub Profile https://github.com/swetharajendran2015-a11y
